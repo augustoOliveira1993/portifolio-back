@@ -100,7 +100,6 @@ export default class RefreshTokenService {
           permissaos: userExist.permissaos,
           email: userExist.email,
           pagina_inicial: userExist.pagina_inicial,
-          setor: userExist.setor,
           avatar_url: userExist.avatar_url,
           ability: abilityUser,
           _id: userExist._id,

@@ -28,7 +28,6 @@ export default class GetMeService {
       _id: userExist._id,
       email: userExist.email,
       username: userExist.username,
-      setor: userExist.setor,
       pagina_inicial: userExist.pagina_inicial,
       status: userExist.status,
       isAdmin: (await this.usersRepository.isAdmin(userExist?.email)) ?? false,
