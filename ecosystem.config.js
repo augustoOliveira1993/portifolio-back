@@ -2,7 +2,7 @@
 module.exports = {
   apps: [
     {
-      name: "backend-base-ts",
+      name: "portifolio-back",
       cwd: __dirname,
       script: "yarn",
       args: "start",

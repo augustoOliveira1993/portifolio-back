@@ -14,7 +14,7 @@ interface Config {
 }
 
 const config: Config = {
-  secret: process.env.secret,
+  secret: process.env.SECRET,
   refreshSecret: process.env.REFRESH_SECRET,
   password_default: process.env.SENHA_DEFAULT_USER_AVB,
   expiresIn: parseExpirationTime('8h'), // 1 hora
