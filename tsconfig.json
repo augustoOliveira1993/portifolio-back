@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "nodenext",
+    "rootDir": "./src",
+    "ignoreDeprecations": "5.0",
+    "sourceMap": true,
+    "strict": true,
+    "paths": {
+      "@modules/*": ["./src/modules/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@utils/*": ["./src/shared/utils/*"],
+      "@globalTypes/*": ["./src/shared/types/*"]
+    },
+    "typeRoots": [],
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "nodenext",
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["src/**/*.ts", "types/**/*.d.ts"],
+  "exclude": ["node_modules", "scripts"]
+}

@@ -1,0 +1,1 @@
+export { getDiffJson } from './jsonDiff';

@@ -1,0 +1,16 @@
+dist
+keys/
+node_modules
+.env
+
+yarn-error.log
+yarn.lock
+
+# Ignorando os arquivos de logs
+logs
+
+ecosystem.homologacao.config.js
+
+src/modules/planoManutencao/services/planoManutencao/dataSheets/*
+
+tmp
